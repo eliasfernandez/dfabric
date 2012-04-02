@@ -6,7 +6,7 @@ from fabric.contrib.console import confirm
 
 def prepare_deploy():
 #   local("./manage.py test my_app")
-    local("git add")
+    local("git add .")
     local("git commit")
 
 def pushpull():
